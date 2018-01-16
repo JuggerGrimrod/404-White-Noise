@@ -1,6 +1,6 @@
 # 404: File Not Found (White-Noise Edition) v1.0.0 (@ /JuggerGrimrod/404-White-Noise)
 
-## This Git repository contains markup, image and audio file assets for a stand-alone, cross-browser, device-agnostic 404 page.
+## This Git repository contains markup, image, style and audio file assets for a stand-alone, cross-browser, device-agnostic 404 page.
 
 This creation is a throwback, meant to emulate the audiovisual result of tuning an analog tv set to a channel which contains no received transmissions.  So when your users end up on a 404 page, they'll get the 1970s equivalent of "file not found" in the form of tv-snow and white-noise.
 
