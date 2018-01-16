@@ -1,0 +1,150 @@
+body {	
+	background-color: #000;			
+}		
+#staticHomeImg {			
+	display: none;
+	background: url(../images/bw_tv_static.gif) repeat 0 0; /* black-and-white tv static (750 x 504px) */
+	/*background: url(../images/color_tv_static.gif) repeat 0 0;*/ /* color tv static (360 x 270px) */
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+.title404 {
+	/*display: none;*/ /* uncomment this line to fade the title in using the script on line 25 of index.html */
+	min-width: 650px;
+	width: auto;
+	height: 74px;						
+	margin: 0;
+	padding: 0;	
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: 20;
+
+	font-family: 'Russo One', sans-serif;
+	color: #000;
+	font-size: 64px;
+	font-weight: 900;
+	text-align: center;
+	text-shadow: 0 0 40px rgba(255, 255, 255, 1);
+}
+a:link.button, a:active.button, a:visited.button {
+	/*display: none;*/ /* uncomment this line to fade the buttons in using the script on line 25 of index.html */
+	display: inline-block; /* comment-out this line to fade the buttons in using the script on line 25 of index.html */
+	width: auto;
+	height: 24px;						
+	margin: 0;
+	padding: 0 5px;
+
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: 20;
+
+	background-color: #000;			
+	border-radius: 4px;
+	border: 0;
+	text-align: center;
+	text-decoration: none;
+	
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 100;
+	line-height: 24px;
+	letter-spacing: 1px;			
+	
+	-webkit-box-shadow: 0 0 8px 4px rgba(255,255,255,0.5);
+	box-shadow: 0 0 8px 4px rgba(255,255,255,0.5);
+}
+	a:hover.button {
+		background-color: #fff;
+		border: 1px dashed #000;
+		color: #000;
+        -webkit-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+	}
+.mute {
+	min-width: 40px;
+	top: 60%;
+}
+.back {			
+	min-width: 62px;
+	top: 70%;
+}
+/* some generic media queries here - craft your own, use this resource if you need device guidelines: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+@media (max-width: 767px){
+	.title404 {
+		min-width: 500px;
+		height: 60px;
+		font-size: 48px;
+	}
+}
+@media (max-width: 520px){
+	.title404 {
+		min-width: 378px;
+		height: 50px;
+		font-size: 36px;
+	}
+	.title404 {
+		top: 40%;
+	}
+	.mute {
+		top: 50%;
+	}
+	.back {
+		top: 60%;
+	}
+}
+@media (max-width: 480px){
+	.title404 {
+		min-width: 378px;
+		height: 50px;
+		font-size: 36px;
+	}
+	.title404 {
+		top: 40%;
+	}
+	.mute {
+		top: 55%;
+	}
+	.back {
+		top: 70%;
+	}
+}
+@media (max-width: 479px){
+	.title404 {
+		min-width: 296px;
+		height: 46px;
+		font-size: 28px;
+	}
+	.title404 {
+		top: 40%;
+	}
+	.mute {
+		top: 60%;
+	}
+	.back {
+		top: 80%;
+	}
+}
+@media (max-width: 360px){
+	.title404 {
+		top: 40%;
+	}
+	.mute {
+		top: 50%;
+	}
+	.back {
+		top: 60%;
+	}
+}
