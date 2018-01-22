@@ -14,7 +14,7 @@ A Google Font call to "Russo One" is included, as are generic media queries for 
 
 The js/jQuery for this demo is in-line within the HEAD section of the **/index.html** file.  The script is not extensive, so it wasn't ported into a stand-alone .js file.  Feel free to change that for your own purposes.
 
-Line 27 of **/index.html** contains a commented-out line of jQuery - this line, when uncommented, will fade the background static image out of display 5 seconds after it fades into display, and any additional functionality which you may want to append should be placed on line 28, within the scope of the *whiteNoise* function.
+Line 27 of **/index.html** contains a commented-out line of jQuery - this line, when uncommented, will fade the background static image out of display 5 seconds after it fades into display, and any additional functionality which you may want to append should be placed on line 28, within the scope of the *whiteNoise()* function.
 
 This demo also includes a generic 404 favicon.ico file and favicon call in **/index.html**, plus a javascript "back" button, so users can click that or their browser "back" button to return to the previous page in their window.history (expressed as **window.history.back()**).
 
