@@ -24,6 +24,6 @@ Standard volume control icons (i.e. volume on, volume muted) are not included in
 
 That's it.  Enjoy!
 
-## Jugger Grimrod's 404: File Not Found (White-Noise Edition) README.md file v1.0 
+## 404: File Not Found (White-Noise Edition) README.md file v1.0 
 
 ### Free to all via GNU General Public License v3.0.
